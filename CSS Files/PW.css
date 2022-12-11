@@ -1,0 +1,120 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+  background: #010831;
+}
+
+.navbar-brand span {
+    font-size: 1em;
+    Font-weight: 700;
+    color: #FF8F00;
+}
+
+#LandingPage {
+  background-color: white;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+}
+
+#LandingPage a {
+  font-size: 2.5em;
+  color: black;
+}
+
+#LandingPage a:hover {
+  color: #FF8F00;
+}
+
+section {
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+#info {
+    display:inline;
+    background-color: #DCDCDC;
+    opacity: 0.7;
+    min-height: 50vh;
+    min-width: 30vw;
+}
+
+.progress {
+    height: 20px;
+  }
+
+.progress-bar {
+  background-color: #101E6E;
+}
+
+.timeline {
+    width: 2px;
+    background-color: #FF8F00;
+    margin: 3.5% 0 2%;
+    padding: 0;
+  }
+.circle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    background-color: #DCDCDC;
+    border: solid 3px #FF8F00;
+    border-radius: 50%;
+    position: relative;
+    top: -6px;
+    left: calc(50% - 7px);
+  }
+
+.desc {
+  margin-top: 3.5%;
+  padding-left: 2%;
+}
+
+.title {
+  padding-right: 2%;
+}
+
+.hd {
+  margin: 0 30%;
+}
+
+.hd h1 {
+  border-bottom: solid 3px #FF8F00;
+}
+
+.card a {
+  background-color: #101E6E;
+}
+
+
+
+@media (max-width: 600px) { 
+  #welcome h1, p, a {
+  font-size: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  #info, #welcome {
+    min-height: 40vh;
+    min-width: 60vw;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .title, .desc {
+    font-size: .5em;
+  }
+}
+
+
+
+  
+
+
